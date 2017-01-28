@@ -1,0 +1,172 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: Helvetica;
+}
+
+header {
+    margin:0;
+    padding:0;
+}
+
+.nav-fixed {
+    height: 60px;
+    width: 100%;
+    margin:0;
+    padding:0;
+    background-color:lightgray;
+    position:fixed;
+    top:0;
+}
+
+.menu-top {
+    display:inline-block;
+    margin:0;
+    padding:0;
+    width:100%;
+    font-size:20px;
+}
+
+.menu-top--item {
+    width:100px;
+    height:100%;
+    float:right;
+    text-align: center;
+}
+
+.logo-left {
+    margin:15px;
+    float:left;
+}
+
+.menu-top-item--link {
+    text-decoration:none;
+    margin-top: 15px;
+}
+
+main {
+    position: static;
+    display: block;
+    margin-top: 60px;
+    margin-left:calc(100%/4);
+    width:auto;
+}
+
+.search {
+    padding:0px;
+    margin-top:20px;
+    margin-bottom:0px;
+    display:inline-block;
+}
+
+.search-input, .search-img {
+    border:1px solid lightgray;
+}
+
+.search-input {
+    margin-top: 0;
+    padding-left:10px;
+    width: 500px;
+    height: 40px;
+    font-size:15px;
+}
+
+.search-img {
+    position:relative;
+    top:14px;
+    width: 35px;
+    height: 38px;
+    border-style: solid;
+}
+
+.search-img:hover {
+    border-color: black;
+    border-style: solid;
+    cursor:pointer;
+}
+
+
+
+.nav-results {
+    display:block;
+    height:52px;
+}
+
+.nav-results--row {
+    display:inline-block;
+    margin-top:10px;
+    text-align:center;
+}
+
+.nav-results--row--previous, .nav-results--row--next {
+    height:36px;
+    padding-top:14px;
+    width:100px;
+    text-decoration: none;
+    color:black;
+    border:solid 1px lightgray;
+    float:left;
+}
+
+.nav-results--row--previous:hover, .nav-results--row--next:hover {
+    border-color:black;
+}
+
+
+.nav-results--row--next {
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.nav-results--row--previous {
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+}
+
+.nav-results--row--pages {
+    height:52px;
+    top:0px;
+    position:relative;
+    width:250px;
+    font-size:20px;
+    float:left;
+}
+
+
+
+.results {
+    display:block;
+    padding:0;
+    margin-top:10px;
+}
+
+.results--row {
+    display:inline-block;
+    text-align:center;
+}
+
+.results--row--job-date {
+    width: 100px;
+}
+
+.results--row--job-date, .results--row--job-location {
+    color:#8A8A8A;
+}
+
+.results--row--job-title {
+    width: 247px;
+}
+
+.results--row--job-location {
+    width: 100px;
+}
+
+.results--row--job-title--link {
+    text-decoration:none;
+    font-size:18px;
+}
+
+.results--row--job-title--link:visited {
+    color: blue;
+}
+
