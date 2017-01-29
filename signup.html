@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/sign-up.css">
+    <title>Title</title>
+</head>
+<body>
+    <header class="top">
+        <img class="top top--img" src="images/analogsealogo.png">
+    </header>
+    <main class="signup">
+        <p class="signup signup--title">Sign Up</p>
+        <form class="signup signup--form" action="/signup/">
+            <div class="signup signup--form signup--form--row">
+                <label for="email" class="signup signup--form signup--form--row signup--form--row--label">Email</label>
+                <input id="email" class="signup signup--form signup--form--row signup--form--row--input" type="email" placeholder="foo@bar.com" required>
+            </div>
+            <div class="signup signup--form signup--form--row">
+                <label for="password" class="signup signup--form signup--form--row signup--form--row--label">Password</label>
+                <input id="password" class="signup signup--form signup--form--row signup--form--row--input" type="password" placeholder="1234passw0rd" required>
+            </div>
+            <input class="signup signup--form signup--form--submit" type="submit" value="Sign Up">
+        </form>
+        <a class="signup signup--link" href="/forgot-password/new">Forgot password?</a>
+    </main>
+    <footer class="bottom">
+        <p class="bottom bottom--text">
+            Already have an account?
+        </p>
+        <a class="bottom bottom--link" href="/login">Log in</a>
+    </footer>
+</body>
+</html>

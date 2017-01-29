@@ -1,0 +1,117 @@
+body {
+    background-color: #3F7FBF;
+    margin:0 auto;
+    font-family: Helvetica;
+}
+
+.top {
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center;
+    padding-left:40px;
+    padding-right:40px;
+    font-size:25px;
+}
+
+.top--img {
+    height:35px;
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+
+.bottom {
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center;
+    font-size:15px;
+    width:auto;
+    color:white;
+
+}
+
+.bottom--text {
+    display:inline-block;
+    color:white;
+    text-decoration: bold;
+}
+
+.bottom--link {
+    display: inline-block;
+    padding-left: 0;
+}
+
+
+.signup {
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+    background-color:white;
+    text-align: center;
+    width:320px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:40px;
+}
+
+.signup--form {
+    display: block;
+    text-align: left;
+    width:auto;
+    margin:0;
+    padding:0;
+
+}
+
+.signup--title {
+    font-size: 30px;
+    margin:0;
+    padding:0;
+    padding-bottom:40px;
+
+}
+
+.signup--form--row {
+}
+
+.signup--form--row--label {
+    margin-bottom:20px;
+}
+.signup--form--row--input {
+    margin-bottom:20px;
+    padding-left:15px;
+    height:55px;
+    width:320px;
+    font-size:16px;
+}
+
+.signup--form--submit {
+    border:0;
+    margin-bottom:10px;
+    padding-left:15px;
+    height:55px;
+    width:340px;
+    text-align:center;
+    background-color:mediumseagreen;
+    color:white;
+    font-size:20px;
+    text-decoration: bold;
+}
+
+.signup--link {
+    display:inline-block;
+    padding:0;
+    margin:0;
+    margin-bottom:20px;
+    color:gray;
+    font-size:10px;
+}
+
+
+
+
+
+
+
